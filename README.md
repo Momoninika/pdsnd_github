@@ -10,7 +10,7 @@ In this project, a Python script is developed to explore data related to bike sh
 - New York City,
 - Washington.
 
-The script created takes in raw input to create an interactive experience in the terminal to present descriptive statistics.
+The created script takes in raw input to create an interactive experience in the terminal to present descriptive statistics.
 
 ### Files used
 ###### CSV files
