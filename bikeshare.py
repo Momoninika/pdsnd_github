@@ -187,7 +187,6 @@ def user_stats(df,city,current_year):
     """
 
     print('\nCalculating User Stats...\n')
-    start_time = time.time()
 
     # TO DO: Display counts of user types
     user_types = df['User Type'].value_counts()
@@ -210,7 +209,6 @@ def user_stats(df,city,current_year):
         year_mean=df['Birth Year'].mean()
         print("The mean users age is {}.".format(current_year-int(year_mean)))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 def display_data(df,city,nbr_lines):
